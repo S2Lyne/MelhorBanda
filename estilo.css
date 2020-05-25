@@ -1,107 +1,16 @@
 body{
     margin: 0;
     padding: 0;
-    background-imagem: url("bg.png" alt="plano de fundo");
+    background-imagem: url("bg.png");
+    background-repet: no-repet;
     text-align: center;
 }
 
 
 header{
-    background-color:#B03060;
-    background-repet: no-repet;
+    background-color:#B03060;    
     text-align: center;
     padding: 20px;
     
 }
 
-nav{
-   overflow: hidden;
-    background-color: #DB7093;
-
-}
-
-nav a{
-    color: rgb(43, 184, 102);
-    text-align: center;
-    padding: 14px 30px;
-    text-decoration: none;
-    
-    
-}
-
-nav a:hover{
-    background-color: rgb(20, 226, 20);
-    color: black;
-  
-}
-
-section:after{
-    content: "";
-    display: table;
-    clear: both;
-    padding: 0;
-    margin: 0;
-    
-   
-}
-
-.coluna{
-    float: left;
-    padding: 15px;
-}
-
-.coluna.lados{
-    width: 24%;
-    background-color: blue;
-}
-
-.coluna.meio{
-    width: 50%;
-    background-color: chartreuse;
-    
-}
-
-footer{
-    background-color: #FF1493;
-    text-align: center;
-    padding: 10px;
-    margin-top: 0;
-}
-
-.conteudo{
-    margin: 0;
-}
-
-.direito{
-    background-color: springgreen;
-    text-align: center;
-  
-}
-
-.header{
-    background-color: aquamarine;
-    text-align: center;
-    padding: 20px;
-    
-    
-}
-
-.footer{
-    background-color: tomato;
-    text-align: center;
-}
-
-.left{
-    background-color: rgb(219, 223, 25);
-    float: left;
-    width: 70%;
-    text-align: center;
-
-}
-
-.right{
-    background-color: rgb(216, 71, 192);
-    float: left;
-    width: 30%;
-    text-align: center;
-}
