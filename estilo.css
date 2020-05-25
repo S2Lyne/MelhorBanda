@@ -1,11 +1,14 @@
 body{
     margin: 0;
     padding: 0;
+    background-imagem: url("bg.png" alt="plano de fundo");
+    text-align: center;
 }
 
 
 header{
-    background-color: aquamarine;
+    background-color:#B03060;
+    background-repet: no-repet;
     text-align: center;
     padding: 20px;
     
@@ -13,12 +16,11 @@ header{
 
 nav{
    overflow: hidden;
-    background-color: black;
+    background-color: #DB7093;
 
 }
 
 nav a{
-    float: left;
     color: rgb(43, 184, 102);
     text-align: center;
     padding: 14px 30px;
@@ -60,7 +62,7 @@ section:after{
 }
 
 footer{
-    background-color: slategray;
+    background-color: #FF1493;
     text-align: center;
     padding: 10px;
     margin-top: 0;
@@ -72,17 +74,8 @@ footer{
 
 .direito{
     background-color: springgreen;
-    float: left;
-    width: 50%;
     text-align: center;
   
-}
-
-.esquerdo{
-    background-color: steelblue;
-    float: left;
-    width: 50%;
-    text-align: center;
 }
 
 .header{
