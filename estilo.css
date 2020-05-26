@@ -1,15 +1,27 @@
 body{
     
     background-imagem: url("bg.png");
-    background-repet: no-repet;
-    text-align: center;
+   
+}
+h1, a, p, table{
+    color:#fff;   
+}
+h1, a, p, table{
+    text-align: center;   
 }
 
 
-header{
-    background-color:#B03060;    
+.header{
+    background-color:;    
     text-align: center;
-    padding: 20px;
     
 }
+.conteudo{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 50%;
+    height: 50%;
+    border-radius: 8px;
+    padding: 20px;
+}
+
 
