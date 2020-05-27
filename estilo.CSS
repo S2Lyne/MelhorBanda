@@ -25,9 +25,11 @@ th, td{
 }
 
 nav a{
-    margin: 15px;
+    margin: 25px;
     text-decoration: none;
     background-color: rgba(255, 0, 157, 0.753);
+    border-radius: 6px;
+    border-color: black;
 }
 
 nav a:hover{
