@@ -14,17 +14,42 @@
 </head>
 
 <body>
-	<div class = "conteudo">
-		<div class = "header">
-			<nav>
-        		<a href="index.html">Home</a>
-       			<a href="pagina2.html">Quem Somos</a>
-      			<a href="pagina3.html">Contato</a>
-    		</nav>
-        </div>
+	
+	<div class = "header">
+		<nav>
+        	<a href="index.html">Home</a>
+       		<a href="pagina2.html">Quem Somos</a>
+            <a href="pagina3.html">Contato</a>
+		</nav>
+    </div>
+    <div class = "conteudo">
         <div class="meio">
             <h1>Contato</h1>
-
+            
+            <form action=" /action_page.php">
+                <fieldset class="form">
+                    <legend class="leg">Dados Pessoais</legend>
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name">
+                    <p></p>
+                    <label for="lName">Sobrenome:</label>
+                    <input type="text" id="lName">
+                    <p></p>                     
+                    <label for="e-mail">E-mail</label>
+                    <input type="email" id="e-mail" name="e-mail"><br>
+                    <p></p>        
+                    <label for="tel">Telefone:</label>
+                    <input type="number" name="tel" id="tel"><br>
+                    <p></p>                        
+                </fieldset>
+                <p></p>
+                <fieldset class="form">
+                    <legend class= "leg">Mensagem</legend>
+                    <textarea name="texto" id="texto">
+                    </textarea>
+                </fieldset>
+                <input type="button" id="botao" name="botao" value="Registrar">
+            </form>
         </div>
     </div>
 </body>
