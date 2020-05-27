@@ -25,6 +25,7 @@ th, td{
 }
 
 nav a{
+    width: 60px;
     margin: 25px;
     text-decoration: none;
     background-color: rgba(255, 0, 157, 0.753);
